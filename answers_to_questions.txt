@@ -1,6 +1,6 @@
 3.a. python module is a set of various functions, collection of various codes that can be imported to the python application.Python package in contrary is a collection of different modules
 
-3.b.Side effects happens when the value of a mutable (global) object, that is passed as argument and is changed within the function (locally),  automatically changes the value of a global object, as it has the same location in the memory. e.g:
+3.b.Side effect happens when the value of a mutable (global) object, that is passed as argument and is changed within the function (locally),  automatically changes the value of a global object, as it has the same location in the memory. e.g:
 x = [1, 2]
 print(id(x), x)  # results in [1,2]
 
